@@ -16,7 +16,7 @@ and by using a property that is called
   
   Contact Mail id is :  rajusharmaindia@hotmail.com
   
-  Whenever write an email the in subject line Please mention FlatsOnRentManagementApp
+  Whenever write an email then in subject line Please mention FlatsOnRentManagementApp
   
   
   Thanks & Regards,
