@@ -27,7 +27,6 @@ public class FlatsController{
 	@RequestMapping(value = "verifyUser", method = RequestMethod.POST)
 	public String verifyUser(@ModelAttribute("user") User user,
 			BindingResult result) {
-		System.out.println("FlatsController - verifyUser() is called");
 		String un = user.getUsername();
 		String pw = user.getPassword();
 		userValidator.validate(user, result);

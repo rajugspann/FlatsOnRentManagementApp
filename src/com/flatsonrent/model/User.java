@@ -6,7 +6,6 @@ public class User {
 	private String password;
 
 	public User() {
-		System.out.println("User - DC1");
 	}
 
 	public User(String username, String password) {
