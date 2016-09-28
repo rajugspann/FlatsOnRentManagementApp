@@ -1,8 +1,6 @@
 package com.flatsonrent.controller;
 
-import java.util.List;
 import java.util.Map;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -12,10 +10,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import com.flatsonrent.hibernate.ChibernateUtil;
 import com.flatsonrent.model.Register;
-import com.flatsonrent.model.User;
 import com.flatsonrent.validator.RegisterValidator;
 
 @Controller
@@ -58,7 +54,6 @@ public class RegisterController {
 			Register register2 = new Register(username, password, name, phone, address, pincode, city, state);
 			session.save(register2);
 			txn.commit();
-			System.out.println("Transaction : "+ txn);
 			}catch(Exception e){
 				if(txn!=null)
 					txn.rollback();

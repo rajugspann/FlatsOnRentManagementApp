@@ -1,3 +1,10 @@
-E:\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\controller\LoginController.java
-E:\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\controller\FlatsController.java
-E:\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\service\FlatsService.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\model\Register.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\hibernate\ChibernateUtil.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\controller\RegisterController.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\validator\RegisterValidator.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\controller\ServletClass.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\model\User.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\validator\UserValidator.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\controller\FlatsController.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\controller\InsertRecord.java
+E:\Java_Related\Workspace\FlatsOnRentManagementApp\src\com\flatsonrent\hibernate\HibernateUtil.java

@@ -20,7 +20,7 @@
 			<tr>
 
 				<td>Password</td>
-				<td><form:input path="password" /></td>
+				<td><form:password path="password" /></td>
 				<td><font color="red" size="5"> <form:errors
 							path="password" /></font></td>
 
