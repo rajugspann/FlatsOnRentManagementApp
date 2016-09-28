@@ -9,6 +9,7 @@ import com.flatsonrent.model.User;
 
 public class InsertRecord {
 	public static void main(String[] args) {
+		System.out.println("InsertRecord is user to insert the record in Database");
 		Session session = null;
 		Transaction txn = null;
 		try {
